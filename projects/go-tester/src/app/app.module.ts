@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
   GoAccordionModule,
   GoActionSheetModule,
+  GoBadgeModule,
   GoButtonComponent,
   GoButtonModule,
   GoCardModule,
@@ -55,6 +56,7 @@ import { AppGuard } from './app.guard';
     ReactiveFormsModule,
     GoAccordionModule,
     GoActionSheetModule,
+    GoBadgeModule,
     GoButtonModule,
     GoCardModule,
     GoHeaderModule,
