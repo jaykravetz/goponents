@@ -12,12 +12,14 @@ import {
   GoIconButtonModule,
   GoIconModule,
   GoLoaderModule,
+  GoModalModule,
   GoOffCanvasModule,
   GoSearchModule,
   GoSideNavModule,
   GoTableModule,
   GoToasterModule,
-  GoToastModule
+  GoToastModule,
+  GoModalService
 } from '../../../go-lib/src/public_api';
 
 import { AppComponent } from './app.component';
@@ -38,6 +40,7 @@ import { SearchTestComponent } from './components/search-test.component';
     GoIconModule,
     GoIconButtonModule,
     GoLoaderModule,
+    GoModalModule,
     GoOffCanvasModule,
     GoSearchModule,
     GoSideNavModule,
@@ -47,7 +50,8 @@ import { SearchTestComponent } from './components/search-test.component';
     AppRoutingModule
   ],
   providers: [
-    AppService
+    AppService,
+    GoModalService
   ],
   entryComponents: [
     GoButtonComponent,

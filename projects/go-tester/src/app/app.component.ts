@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import {
   GoTableConfig,
   GoOffCanvasService,
+  GoModalService,
   GoTableDataSource,
   GoButtonComponent,
   GoIconComponent,
@@ -56,7 +57,9 @@ export class AppComponent implements OnInit {
     private appService: AppService,
     private goToasterService: GoToasterService,
     private goOffCanvasService: GoOffCanvasService,
-    private goSideNavService: GoSideNavService
+    private goSideNavService: GoSideNavService,
+    private goModalService: GoModalService
+
   ) { }
 
   ngOnInit() {
@@ -101,11 +104,8 @@ export class AppComponent implements OnInit {
   }
 
   openThing() : void {
-    this.goOffCanvasService.openOffCanvas({
-      component: GoIconComponent,
-      bindings: {
-        icon: 'alarm'
-      }
+    this.goModalService.openModal(GoIconComponent, {
+      icon: 'alarm'
     });
   }
 
