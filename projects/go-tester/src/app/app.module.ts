@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 
 import {
+  GoAccordionModule,
   GoButtonComponent,
   GoButtonModule,
   GoHeaderModule,
@@ -49,6 +50,7 @@ import { AppGuard } from './app.guard';
     GoLayoutModule,
     GoLoaderModule,
     GoOffCanvasModule,
+    GoAccordionModule,
     GoSearchModule,
     GoSideNavModule,
     GoTableModule,
