@@ -22,6 +22,10 @@ export * from './lib/components/go-button/go-button.module';
 export * from './lib/components/go-card/go-card.component';
 export * from './lib/components/go-card/go-card.module';
 
+// Datepicker
+export * from './lib/components/go-datepicker/go-datepicker.component';
+export * from './lib/components/go-datepicker/go-datepicker.module';
+
 // Header
 export * from './lib/components/go-header/go-header.component';
 export * from './lib/components/go-header/go-header.module';
