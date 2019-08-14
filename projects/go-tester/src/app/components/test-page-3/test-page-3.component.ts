@@ -9,7 +9,8 @@ export class TestPage3Component {
   form: FormGroup = new FormGroup({
     name: new FormControl({ value: '', disabled: false }, Validators.required),
     notes: new FormControl(''),
-    radio: new FormControl({value: '', disabled: false})
+    radio: new FormControl({value: '', disabled: false}),
+    date: new FormControl({ value: '', disabled: false }, Validators.required)
   });
   loading: boolean = false;
 
@@ -36,7 +37,8 @@ export class TestPage3Component {
         }
       ],
       notes: [{ message: 'test' }],
-      radio: [{message: 'some test error'}]
+      radio: [{message: 'some test error'}],
+      date: [{message: 'This is not a date'}]
     };
 
     this.setErrors(errorResponse);
