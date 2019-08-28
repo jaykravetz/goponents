@@ -17,8 +17,8 @@ import {
 })
 export class AppComponent implements OnInit {
 
-  logo: string = '../assets/logo.png';
-  logoCollapsed: string = '../assets/logo-main.png';
+  logo: string = '../assets/Tangoe_Logo_White.png';
+  logoCollapsed: string = '../assets/Tangoe_Logo_Green.png';
   title: string = 'go-tester';
 
   menuItems: Array<NavGroup | NavItem> = [
