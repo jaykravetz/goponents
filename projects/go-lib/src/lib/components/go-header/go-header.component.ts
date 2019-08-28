@@ -12,6 +12,7 @@ export class GoHeaderComponent {
 
   @Input() altText: string = '';
   @Input() logo: string = '';
+  @Input() logoCollapsed: string = '';
 
   @ViewChild('middleSection') middleSection: ElementRef;
 

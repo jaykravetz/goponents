@@ -17,7 +17,8 @@ import {
 })
 export class AppComponent implements OnInit {
 
-  logo: string = 'https://mobi.thefutureis.mobi/images/assets/theme_logo/000/000/000/178/header.png?1556627290';
+  logo: string = '../assets/logo.png';
+  logoCollapsed: string = '../assets/logo-main.png';
   title: string = 'go-tester';
 
   menuItems: Array<NavGroup | NavItem> = [
