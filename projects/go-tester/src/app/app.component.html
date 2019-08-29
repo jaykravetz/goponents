@@ -1,5 +1,5 @@
 <go-layout>
-  <go-header go-layout-header [logo]="logo" [altText]="'Tangoe Logo'">
+  <go-header go-layout-header [logo]="logo" [logoCollapsed]="logoCollapsed" [altText]="'Tangoe Logo'">
     <go-search go-header-middle>
       <app-search-test></app-search-test>
     </go-search>
@@ -27,7 +27,7 @@
           </go-panel>
           <go-accordion showIcons="true" [slim]="true" class="go-action-sheet__go-accordion">
             <go-accordion-panel title="Accordion" icon="home">
-              Another test 
+              Another test
             </go-accordion-panel>
           </go-accordion>
           <go-panel danger="true" panelContent="Logout" icon="lock">
