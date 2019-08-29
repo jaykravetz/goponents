@@ -5,9 +5,9 @@ import {
   GoModalService,
   GoOffCanvasService,
   GoSideNavService,
+  GoToasterService,
   NavGroup,
-  NavItem,
-  GoToasterService
+  NavItem
 } from '../../../go-lib/src/public_api';
 
 @Component({
