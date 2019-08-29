@@ -3,6 +3,7 @@
 @import '../../../../styles/variables';
 
 .go-nav-item {
+  font-family: $side-nav-font-stack;
   align-items: center;
   display: flex;
   padding-right: .5rem;
@@ -25,7 +26,7 @@
 
 .go-nav-item__link--active {
   .go-nav-item__title {
-    font-weight: $weight-regular;
+    font-weight: $weight-bold;
   }
 }
 
@@ -51,7 +52,7 @@
 
 .go-nav-item__title {
   font-size: $inner-side-nav-font-size;
-  font-weight: $weight-light;
+  font-weight: $weight-regular;
   letter-spacing: $side-nav-letter-spacing;
   padding: $inner-side-nav-padding;
 }

@@ -3,6 +3,7 @@
 @import '../../../../styles/variables';
 
 .go-nav-group__dropdown {
+  font-family: $side-nav-font-stack;
   align-items: center;
   display: flex;
   padding-right: .5rem;
