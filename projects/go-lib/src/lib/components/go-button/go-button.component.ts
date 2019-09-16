@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'go-button',
+  styleUrls: ['./go-button.component.scss'],
   templateUrl: './go-button.component.html'
 })
 export class GoButtonComponent {

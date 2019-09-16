@@ -24,7 +24,7 @@
         </go-panel>
         <go-accordion showIcons="true" [slim]="true" class="go-action-sheet__go-accordion">
           <go-accordion-panel title="Accordion" icon="home">
-            Another test 
+            Another test
           </go-accordion-panel>
         </go-accordion>
         <go-panel danger="true" panelContent="Logout" icon="lock">
@@ -48,15 +48,15 @@
       </div>
     </div>
   </div>
-      
+
   <div class="go-column go-column--100">
     <h4 class="go-heading-4">Buttons</h4>
-    <go-button buttonIcon="home">
-      Hey
-    </go-button>
+    <go-button>Default</go-button>
+    <go-button [buttonDisabled]="true">Default</go-button>
     <go-button buttonIcon="add_shopping_cart" buttonVariant="positive" (handleClick)="clickHey()" [useLoader]="true" #heyButton>
       Hey
     </go-button>
+    &emsp;
     <go-button buttonIcon="fingerprint" buttonVariant="negative">
       Hey
     </go-button>

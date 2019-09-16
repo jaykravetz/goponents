@@ -13,10 +13,16 @@ $brand-color-gradient: linear-gradient(to right, $base-primary, $brand-color-hov
 $side-nav-width: 15.5rem;
 $side-nav-width--collapsed: 3.2rem;
 
+// Text
+$text-light-secondary: #fdfdfd;
+
+// Button
+$button-background-primary: #00838f;
+
 // SideNav
 $inner-side-nav-font-size: 0.875rem;
 $inner-side-nav-padding: $column-gutter--half $column-gutter--three-quarters $column-gutter--half 3.2rem;
 $outer-side-nav-padding: 1rem 1rem 1rem 0;
 $side-nav-letter-spacing: .02rem;
 $side-nav-font-stack: 'Bryant', 'Helvetica', 'Arial', sans-serif;
-$side-nav-item-title-color: #fdfdfd;
+$side-nav-item-title-color: $text-light-secondary;
