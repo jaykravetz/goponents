@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {TestDatePickerComponent} from './components/test-date-picker/test-date-picker.component';
 
 import { TestPage1Component } from './components/test-page-1/test-page-1.component';
 import { TestPage2Component } from './components/test-page-2/test-page-2.component';
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: '', component: LayoutComponent, children: [
     { path: 'test-page-1', component: TestPage1Component, canActivate: [AppGuard] },
     { path: 'test-page-2', component: TestPage2Component, canActivate: [AppGuard] },
-    { path: 'test-page-3', component: TestPage3Component, canActivate: [AppGuard] }
+    { path: 'test-page-3', component: TestPage3Component, canActivate: [AppGuard] },
+    { path: 'date-picker-test', component: TestDatePickerComponent}
   ]},
   { path: 'test-page-4', component: TestPage4Component },
   { path: '**', redirectTo: '/test-page-1' }

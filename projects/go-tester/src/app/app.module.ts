@@ -47,6 +47,7 @@ import { TestPage3Component } from './components/test-page-3/test-page-3.compone
 import { TestPage4Component } from './components/test-page-4/test-page-4.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { AppGuard } from './app.guard';
+import { TestDatePickerComponent } from './components/test-date-picker/test-date-picker.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { AppGuard } from './app.guard';
     TestPage2Component,
     TestPage3Component,
     TestPage4Component,
-    LayoutComponent
+    LayoutComponent,
+    TestDatePickerComponent
   ],
   imports: [
     AppRoutesModule,

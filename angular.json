@@ -118,7 +118,6 @@
             "tsConfig": "projects/go-tester/tsconfig.spec.json",
             "karmaConfig": "projects/go-tester/karma.conf.js",
             "styles": [
-              "projects/go-tester/src/styles.css"
             ],
             "scripts": [],
             "assets": [
